@@ -10,6 +10,11 @@ const { signIn } = useAuth();
 
 <style lang="scss" scoped>
 .button {
+  font-family: "Rubik";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   margin: 0 0 14px;
   padding: 14px;
   border: 1px solid #1f1f1f;

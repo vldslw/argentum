@@ -19,6 +19,7 @@
   margin-top: 325px;
   &__text {
     margin: 0 0 14px;
+    font-family: "Rubik";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -34,6 +35,11 @@
     cursor: pointer;
   }
   &__link {
+    font-family: "Rubik";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     box-sizing: border-box;
     text-align: center;
     text-decoration: none;

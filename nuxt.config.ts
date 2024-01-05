@@ -9,7 +9,18 @@ export default defineNuxtConfig({
     authOrigin: process.env.AUTH_ORIGIN,
   },
   devtools: { enabled: true },
-  modules: ["@sidebase/nuxt-auth", "nuxt-mongoose"],
+  modules: [
+    "@sidebase/nuxt-auth",
+    "nuxt-mongoose",
+    [
+      "@nuxtjs/google-fonts",
+      {
+        families: {
+          Rubik: [400, 700],
+        },
+      },
+    ],
+  ],
   auth: {
     baseURL: process.env.AUTH_ORIGIN,
   },

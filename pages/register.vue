@@ -46,7 +46,7 @@
           register__button_disabled: isLoading,
         }"
       >
-        Create account
+        Register
       </button>
     </form>
   </div>
@@ -89,6 +89,7 @@ async function handleFormSubmit() {
   flex-direction: column;
   align-items: center;
   &__title {
+    font-family: "Rubik";
     font-size: 29px;
     font-style: normal;
     font-weight: 700;
@@ -100,6 +101,11 @@ async function handleFormSubmit() {
     max-width: 452px;
   }
   &__input {
+    font-family: "Rubik";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     margin: 0 0 9px;
     padding: 9px 0 13px;
     outline: none;
@@ -111,6 +117,11 @@ async function handleFormSubmit() {
   }
 
   &__button {
+    font-family: "Rubik";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     align-self: flex-end;
     margin: 0 0 14px;
     padding: 14px;

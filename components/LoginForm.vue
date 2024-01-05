@@ -42,6 +42,11 @@ async function handleLogin() {
   display: flex;
   flex-direction: column;
   &__input {
+    font-family: "Rubik";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     margin: 0 0 9px;
     padding: 9px 0 13px;
     outline: none;
@@ -53,6 +58,11 @@ async function handleLogin() {
   }
 
   &__button {
+    font-family: "Rubik";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     margin: 0 0 14px;
     padding: 14px;
     border: 1px solid #e32121;
