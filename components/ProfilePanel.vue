@@ -1,21 +1,23 @@
 <template>
-  <div class="auth">
-    <button class="auth__button auth__button_github">
-      Sign in with GitHub
-    </button>
-    <button class="auth__button">Log Out</button>
+  <div class="profile">
+    <button @click="handleSignOut" class="profile__button">Log Out</button>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const { signOut } = useAuth();
 
-<style scoped lang="scss">
-.auth {
+async function handleSignOut() {
+  await signOut();
+}
+</script>
+
+<style lang="scss" scoped>
+.profile {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 325px;
-
   &__button {
     margin: 0 0 14px;
     padding: 14px;
@@ -24,10 +26,6 @@
     border-radius: 40px;
     width: 207px;
     cursor: pointer;
-    &_github {
-      color: #fff;
-      background-color: #1f1f1f;
-    }
   }
 }
 </style>
