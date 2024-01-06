@@ -11,5 +11,6 @@ export default eventHandler(async (event) => {
     email: user?.email,
     firstName: user?.firstName,
     lastName: user?.lastName,
+    role: user?.role,
   };
 });

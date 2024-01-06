@@ -23,4 +23,8 @@ export const User = defineMongooseModel("User", {
     required: true,
     trim: true,
   },
+  role: {
+    type: Array,
+    required: false,
+  },
 });
