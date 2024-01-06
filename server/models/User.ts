@@ -13,18 +13,18 @@ export const User = defineMongooseModel("User", {
     required: true,
     length: [8, "Password should contain at least 8 characters"],
   },
-  firstName: {
+  first_name: {
     type: String,
     required: true,
     trim: true,
   },
-  lastName: {
+  last_name: {
     type: String,
     required: true,
     trim: true,
   },
   role: {
-    type: Array,
-    required: false,
+    key: { type: String, default: "user" },
+    authority: { type: Number, default: 0 },
   },
 });

@@ -17,9 +17,10 @@ export default defineEventHandler(async (event) => {
   const hashedPassword = await bcrypt.hash(body.password, salt);
 
   const user = await User.create({
-    ...body,
+    email: body.email,
     password: hashedPassword,
-    role: ["user"],
+    first_name: body.firstName,
+    last_name: body.lastName,
   });
 
   return { ...user.toObject(), password: undefined };
