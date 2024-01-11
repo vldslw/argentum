@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     authSecret: process.env.AUTH_SECRET,
     authOrigin: process.env.AUTH_ORIGIN,
   },
+  css: ["normalize.css/normalize.css"],
   devtools: { enabled: true },
   modules: [
     "@sidebase/nuxt-auth",
