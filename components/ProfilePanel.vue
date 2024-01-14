@@ -26,8 +26,8 @@ async function handleSignOut() {
     line-height: normal;
     margin: 0 0 14px;
     padding: 14px;
-    border: 1px solid #1f1f1f;
-    background-color: #fff;
+    border: 1px solid $black;
+    background-color: $white;
     border-radius: 40px;
     width: 207px;
     cursor: pointer;

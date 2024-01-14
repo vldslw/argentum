@@ -9,6 +9,18 @@ export default defineNuxtConfig({
     authOrigin: process.env.AUTH_ORIGIN,
   },
   css: ["normalize.css/normalize.css"],
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: `
+            @use "~/assets/scss/_colors.scss" as *;
+            @use "~/assets/scss/_breakpoints.scss" as *;
+          `,
+        },
+      },
+    },
+  },
   devtools: { enabled: true },
   modules: [
     "@sidebase/nuxt-auth",
