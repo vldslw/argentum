@@ -24,12 +24,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    color: $black;
   }
   &__button {
     margin: 0 0 14px;
     padding: 14px;
     border: 1px solid #1f1f1f;
-    background-color: #fff;
+    background-color: $white;
     border-radius: 40px;
     width: 207px;
     cursor: pointer;
@@ -44,9 +45,9 @@
     text-align: center;
     text-decoration: none;
     padding: 14px;
-    border: 1px solid #e32121;
-    color: #e32121;
-    background-color: #fff;
+    border: 1px solid $highlight;
+    color: $highlight;
+    background-color: $white;
     border-radius: 40px;
     width: 207px;
     cursor: pointer;

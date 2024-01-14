@@ -125,9 +125,9 @@ async function handleFormSubmit() {
     align-self: flex-end;
     margin: 0 0 14px;
     padding: 14px;
-    border: 1px solid #e32121;
-    color: #fff;
-    background-color: #e32121;
+    border: 1px solid $highlight;
+    color: $white;
+    background-color: $highlight;
     border-radius: 40px;
     width: 207px;
     cursor: pointer;
