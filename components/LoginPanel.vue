@@ -16,7 +16,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 325px;
   &__text {
     margin: 0 0 14px;
     font-family: "Rubik";
