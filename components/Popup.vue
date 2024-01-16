@@ -21,7 +21,7 @@ export default {};
   display: flex;
   justify-content: flex-end;
   &__inner {
-    margin-top: 3px;
+    margin-top: 6px;
     margin-right: 52px;
     margin-bottom: auto;
     padding: 20px 33px;
