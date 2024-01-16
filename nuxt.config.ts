@@ -29,10 +29,11 @@ export default defineNuxtConfig({
       "@nuxtjs/google-fonts",
       {
         families: {
-          Rubik: [400, 700],
+          Rubik: [400, 700, 900],
         },
       },
     ],
+    "nuxt-icon",
   ],
   auth: {
     baseURL: process.env.AUTH_ORIGIN,

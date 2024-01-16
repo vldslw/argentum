@@ -1,12 +1,4 @@
-<template>
-  <ProfilePanel v-if="loggedIn" />
-  <LoginPanel v-else />
-</template>
+<template></template>
 
-<script setup>
-const { status } = useAuth();
-
-const loggedIn = computed(() => status.value === "authenticated");
-</script>
-
+<script setup></script>
 <style scoped></style>
